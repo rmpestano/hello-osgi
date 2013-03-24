@@ -5,11 +5,12 @@ to run the project do the following:
 1 - cd to /hello-osgi folder
 2 - start OSGi with java -jar osgi.jar -console 9999
 3 - open another tab on terminal and telnet osgi: telnet localhost 9999
-4 - install hello-osgi bundle: install file:/home/youruser/hello-osgi/plugins/helloosgi.jar
+4 - install hello-osgi-main bundle: install file:/home/youruser/hello-osgi/plugins/helloosgi-main.jar
 5 - back to the first console tab and you should see a print like "Hello Manager started, type 'l' to list available languages....."
 6 - back to osgi tab and install other languages with install file:/home/youruser/hello-osgi/plugins/helloosgi-language_name.jar
 7 - you should see in the first tab a print like: "'Language installed' Hello service started"
 8 - now type 'l' to list languages and type the language number to print hello world. 
+9 - you can stop and start bundles in osgi tab(step 3), you can use command 'ss' to list bundle status
 
 
 to compile the project you will need:
