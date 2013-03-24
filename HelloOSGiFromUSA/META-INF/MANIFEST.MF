@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HelloOSGiFromUSA
+Bundle-SymbolicName: HelloOSGiFromUSA
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: helloosgifromusa.Activator
+Import-Package: helloosgi.main.api,
+ org.osgi.framework;version="1.3.0"
